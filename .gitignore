@@ -1,0 +1,66 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# --- Артефакты сборки и кэш ---
+.gradle/
+build/
+/*/build/
+out/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aar
+*.aab
+output-metadata.json
+
+# --- Настройки Android Studio / IntelliJ IDEA ---
+# Игнорируем всю папку .idea, так как настройки часто индивидуальны
+.idea/
+*.ipr
+*.iws
+
+# Если вы работаете в команде и хотите сохранить общие настройки стиля кода
+# или конфигурации запуска, можно НЕ игнорировать некоторые файлы внутри .idea,
+# но для большинства случаев проще игнорировать папку целиком.
+
+
+# --- Ключи и сертификаты ---
+# Никогда не добавляйте ключи подписи в репозиторий!
+*.jks
+*.keystore
+*.p12
+*.key
+*.pubxml
+
+# --- Google Services (Firebase) ---
+# Если проект публичный (open source), google-services.json обычно игнорируют.
+# Если проект приватный и корпоративный, его часто оставляют.
+# google-services.json
+
+# --- Kotlin и Java ---
+.kotlin/
+*.class
+
+# --- Логи ---
+*.log
+
+# --- Файлы операционной системы ---
+Thumbs.db
+
+# --- Прочее ---
+*.swp
+*~
+.navigation/
